@@ -21,12 +21,16 @@ body {
 .logo-first {
     color: var(--title-color);
 }
+
 .header-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-color);
+}
+.current {
+    color: var(--accent-color);
 }
 .header-link:hover,
 .header-link:focus,
@@ -57,6 +61,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #ffffff;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color:#188CE8;
 }
 .hero-btn {
     font-family: inherit;
@@ -173,7 +181,10 @@ body {
     color:var(--title-color);
     background: #F5F4FA;
 }
-
+.btn-current {
+    color: #FFFFFF;
+    background: var(--accent-color);
+}
 /* ---------------------Projects---------------------- */
 
 .project-title:hover,
@@ -188,7 +199,7 @@ color: var(--accent-color);
 .project-title {
  text-decoration: none;
  font-size: 18px;
-line-height: 2.00;
+line-height: 2;
 letter-spacing: 0.06em;
 color: var(--title-color)
 }
